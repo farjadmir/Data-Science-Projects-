@@ -1,0 +1,50 @@
+The first error that i faced was while loading the dataset in the Jupyter Notebook, as the encoding was different 
+I had to change the encoding format of the pandas reading for the dataset to import the data succesfully.
+
+
+error 1:
+
+
+So incase if you are facing encoding error, Change the encoding to the 'latin1'
+
+I figured this solution out from stacks-overflow
+
+Remember: I was using Kali Linux but 'latin1' encoding works for all the OS's be it MAC or Windows or Linux.
+
+
+error 2:
+
+
+ The second error I faced was while using the pandas as_matrix() function.
+
+i solved this error by simply updating my libraries.
+
+Note: If you are using the previous versions, and if you are receiving error at to_numpy() function, please change it to as_matrix().
+
+
+error 3:
+
+ 
+In drawing the 3D plots, i was confused by not being able to view the centers i had drawn, i tried different parameters but i was not able to visualize them , this is because the centers were totally covered inside the datapoints in the 3D plot. 
+But, there were some parts of the centers where the data points were bit scattered, that were visible. 
+
+
+error 4: 
+
+
+Transforming value to a log scale for K-means clustering. without transformation it wont work.
+while importing code from the silhouette analysis, make sure to fit in values and variables carefully and make sure your data is properly cleaned and Transformed into a log scale.
+
+Make sure to properly use inverse-transformation on the log scale to get back the nubers into normal scale for analysis. 
+
+The resources i have listed have hepled me leaps and bounds in performing the required operations.
+
+In case you face any errors, please contact me at 
+
+
+koolcoolfarjad.881@gmail.com  
+
+
+
+
+
